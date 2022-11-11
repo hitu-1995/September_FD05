@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<student>
+	<address>Pune</address>
+	<age>26</age>
+	<books>
+		<bid>1</bid>
+		<bname>JAVA</bname>
+	</books>
+	<books>
+		<bid>2</bid>
+		<bname>CPP</bname>
+	</books>
+	<marks>50.4</marks>
+	<name>Hites</name>
+	<rollno>101</rollno>
+</student>

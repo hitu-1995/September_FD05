@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+	
+	<bean id="stu" class="com.cjc.model.Student">
+		<property name="rollno" value="101"></property>
+		<property name="name" value="ABC"></property>
+		<property name="books">
+			<list>
+				<list>
+					<value>Java</value>
+					<value>Python</value>
+					<value>HTML</value>
+				</list>
+				<list>
+					<value>M1</value>
+					<value>M2</value>
+					<value>M3</value>
+				</list>
+				<list>
+					<value>Science</value>
+					<value>Physics</value>
+					<value>chem</value>
+				</list>
+			</list>
+		</property>
+		
+		  <property name="map">
+		    <map>
+		    <entry key="101" value="ABC"/>
+		    <entry key="102" value="XYZ"/>
+		    <entry key="103" value="PQR"/>
+		    <entry key="104" value="LMN"/>
+		    </map>
+		  </property>
+
+	</bean>
+</beans>

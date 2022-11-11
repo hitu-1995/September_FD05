@@ -1,0 +1,17 @@
+{
+	"rollno": 101,
+	"name": "HHHH",
+	"address": "Pune",
+	"marks": 56.0,
+	"age": 26,
+	"books": [
+		{
+			"bid": 1,
+			"bname": "ABC"
+		},
+		{
+			"bid": 2,
+			"bname": "PQR"
+		}
+	]
+}
